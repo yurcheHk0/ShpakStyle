@@ -1,0 +1,39 @@
+
+<!-- Title -->
+<div class="row">
+	<div class="col-lg-12">
+		<h3>Lobby</h3>
+	</div>
+</div>
+<!-- /.row -->
+
+<!-- Page Features -->
+<div ng-controller="LobbyItemsCtrl" class="row text-center">
+
+	<div ng-repeat="item in lobbyItems" class="col-md-3 col-sm-6 hero-feature">
+
+		<div class="thumbnail">
+			<img ng-src="img/{{item.thumbnail}}" alt="">
+			<div class="caption">
+				<h3>{{item.title}}</h3>
+				<p>{{item.description}}</p>
+				<p>
+					<a ng-click="addCartItems(item.id)" class="btn btn-primary">Add to cart</a> <a ng-href="#/card/{{item.id}}" class="btn btn-default">More Info</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- /.row -->
+
+<hr>
+
+<!-- Footer -->
+<footer>
+	<div class="row">
+		<div class="col-lg-12">
+			<p>Copyright &copy; My Website 2015</p>
+		</div>
+	</div>
+</footer>

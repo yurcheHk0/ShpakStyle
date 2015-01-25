@@ -1,0 +1,16 @@
+<div ng-controller="CartCtrl" class="cart-controller">
+	<h2>Cart items</h2>
+
+	<ul class="list-group">
+		<li ng-repeat="item in cartView track by $index" class="list-group-item">
+			<span ng-click="removeAll(item.id)" class="badge cart-btn">x</span>
+			<span ng-click="plusItem(item)" class="badge cart-btn">+</span>
+			<span class="badge">{{item.numbers}}</span>
+			<span ng-click="minusItem(item)" class="badge cart-btn">-</span>
+			<a ng-href="#/card/{{item.id}}">{{item.title}}</a>
+
+		</li>
+	</ul>
+
+</div>
+

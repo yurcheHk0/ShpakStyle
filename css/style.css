@@ -1,0 +1,32 @@
+body {
+	/* Required padding for .navbar-fixed-top.
+	Remove if using .navbar-static-top.
+	Change if height of navigation changes. */
+	padding-top: 70px;
+}
+
+.hero-spacer {
+	margin-top: 50px;
+}
+
+.hero-feature {
+	margin-bottom: 30px;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+.cart-ico {
+	color: #fff;
+	float: right;
+	padding: 7.5px;
+}
+
+.navbar .glyphicon {
+	font-size: 30px;
+}
+
+.cart-btn {
+	cursor: pointer;
+}

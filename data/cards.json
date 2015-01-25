@@ -1,0 +1,26 @@
+[
+	{
+		"id": "card-one",
+		"thumbnail": "800x500.gif",
+		"title": "Открытка «З Вербною Неділею!»",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+		"MoreInfoUrl": "/",
+		"size": "11х14см"
+	},
+	{
+		"id": "card-two",
+		"thumbnail": "800x500.gif",
+		"title": "Открытка «З Вербною Неділею!»",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+		"MoreInfoUrl": "/",
+		"size": "11х14см"
+	},
+	{
+		"id": "card-three",
+		"thumbnail": "800x500.gif",
+		"title": "Открытка «З Вербною Неділею!»",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+		"MoreInfoUrl": "/",
+		"size": "11х14см"
+	}
+]
